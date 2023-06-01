@@ -1,0 +1,29 @@
+2023-05-27 10:55:53,087 - Model - INFO - PARAMETER ...
+2023-05-27 10:55:53,087 - Model - INFO - Namespace(batch_size=12, gpu='0', num_point=1024, log_dir='sem_seg', visual=True, test_area=5, num_votes=3)
+2023-05-27 10:55:53,419 - Model - INFO - The number of test data is: 3
+2023-05-27 10:55:55,351 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2023-05-27 11:01:15,724 - Model - INFO - PARAMETER ...
+2023-05-27 11:01:15,724 - Model - INFO - Namespace(batch_size=12, gpu='0', num_point=1024, log_dir='sem_seg', visual=True, test_area=5, num_votes=3)
+2023-05-27 11:01:16,045 - Model - INFO - The number of test data is: 3
+2023-05-27 11:01:17,936 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2023-05-27 11:10:08,372 - Model - INFO - Mean IoU of Area_5_conferenceRoom_1: 0.4528
+2023-05-27 11:31:11,566 - Model - INFO - Mean IoU of Area_5_conferenceRoom_2: 0.4342
+2023-05-27 11:44:57,682 - Model - INFO - Mean IoU of Area_5_conferenceRoom_3: 0.5639
+2023-05-27 11:45:03,419 - Model - INFO - ------- IoU --------
+class ceiling       , IoU: 0.909 
+class floor         , IoU: 0.953 
+class wall          , IoU: 0.600 
+class beam          , IoU: 0.000 
+class column        , IoU: 0.000 
+class window        , IoU: 0.382 
+class door          , IoU: 0.326 
+class table         , IoU: 0.570 
+class chair         , IoU: 0.708 
+class sofa          , IoU: 0.002 
+class bookcase      , IoU: 0.120 
+class board         , IoU: 0.283 
+class clutter       , IoU: 0.279 
+
+2023-05-27 11:45:03,421 - Model - INFO - eval point avg class IoU: 0.394595
+2023-05-27 11:45:03,423 - Model - INFO - eval whole scene point avg class acc: 0.517600
+2023-05-27 11:45:03,423 - Model - INFO - eval whole scene point accuracy: 0.744524
